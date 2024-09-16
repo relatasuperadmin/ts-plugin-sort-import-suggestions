@@ -122,7 +122,6 @@ function init(modules: { typescript: typeof import("typescript/lib/tsserverlibra
 
           return bLCS - aLCS; // Sort by LCS in descending order
         })
-        .slice(0, 5); // Limit to the top 5 fixes
 
       return newFixes;
     };
